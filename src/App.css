@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+body {
+  font-family: 'Montserrat', serif;
+  background-color: darkslategrey;
+}
+.form-rounded-1 {
+  border-radius: 1.2rem 0 0 1.2rem;
+  margin-bottom: 0 !important;
+}
+.form-rounded-2 {
+  border-radius: 0 1.2rem 1.2rem 0;
+  margin-bottom: 0 !important;
+}
+
+@media (max-width: 768px) {
+  .form-rounded-1 {
+    border-radius: 1.2rem 1.2rem 0 0;
+  }
+  .form-rounded-2 {
+    border-radius: 0 0 1.2rem 1.2rem;
+  }
+}
